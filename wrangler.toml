@@ -1,4 +1,4 @@
-# This file is for Cloudflare Pages static hosting
-# No special configuration needed - just deploy the dist folder
+# Empty wrangler.toml - Cloudflare Pages handles deployment automatically
+
 
 
