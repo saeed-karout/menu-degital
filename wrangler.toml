@@ -1,13 +1,4 @@
-name = "menu-degital"
-main = "dist/index.html"
+# This file is for Cloudflare Pages static hosting
+# No special configuration needed - just deploy the dist folder
 
-[env.production]
-name = "menu-degital-prod"
-
-[build]
-command = "npm run build"
-cwd = "./"
-
-[build.upload]
-dir = "dist"
 
