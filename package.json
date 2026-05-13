@@ -34,9 +34,10 @@
     "typescript": "^5.3.3",
     "vite": "^5.0.10"
   },
-  "scripts": {
+ "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build"
   }
 }
