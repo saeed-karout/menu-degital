@@ -1,0 +1,22 @@
+name = "menu-degital"
+type = "javascript"
+
+[env.production]
+name = "menu-degital-prod"
+route = "https://menu-degital.pages.dev/*"
+zone_id = ""
+
+[build]
+command = "npm run build"
+cwd = "./"
+watch_paths = ["src/**"]
+
+[build.upload]
+format = "service-worker"
+
+[env.production.build]
+command = "npm run build"
+cwd = "./"
+
+[env.production.build.upload]
+format = "service-worker"
