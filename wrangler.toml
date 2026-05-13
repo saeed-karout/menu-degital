@@ -1,5 +1,2 @@
-name = "shamstore"
-compatibility_date = "2026-05-13"
-
-[assets]
-directory = "./dist"
+# Cloudflare Pages configuration
+# The build output is automatically deployed from the dist folder
